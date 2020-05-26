@@ -1,0 +1,39 @@
+.tabela
+{
+	margin-left:auto;
+	margin-right:auto;
+}
+table{
+width:100%;
+}	
+thead
+{
+	background-color:#5090cc;
+}
+th{
+	width:568px;
+	text-align:center;
+	
+}
+td{
+	width:568px;
+	text-align:justify;
+	padding:15px;
+}
+td:first-child{
+	font-size:30px;
+}
+th:first-child 
+{
+	width:300px;
+	background-color:#4585c7;
+}
+td:first-child
+{
+	width:300px;
+	background-color:#aabfee;
+}
+tr
+{
+	border-bottom:1px solid #888;
+}

@@ -1,0 +1,63 @@
+body
+{
+	background-color:#207DAB;
+	color:white;
+}
+
+h1
+{
+	background-color:#106C9A;
+	font-size:50px;
+}
+
+.nav-item
+{
+	font-size:27px;
+	padding-top:6px;
+}
+.nav-item:first-child
+{
+	padding-top:0px;
+	font-size:32px;
+}
+.navbar-nav 
+{
+	margin-right:auto;
+	margin-left:auto;
+}
+.smerfnaglownej
+{
+	width:400px;
+}
+.img_gal img
+{
+	max-height:300px;
+}
+
+img
+{
+	display:block;
+	margin-left:auto;
+	margin-right:auto;
+}
+@media (min-width: 768px)
+{
+	.img_gal
+	{
+		transition: all 0.2s ease-in-out;
+	}
+
+	.img_gal:hover
+	{
+		y:-2000px;
+		transform: scale(1.7) translateY(40px) rotate(5deg);
+		z-index:10;
+		transparent:ease-in-out;
+	}
+	.bezTranslateY:hover
+	{
+		y:-2000px;
+		transform: scale(1.7) ;
+		z-index:10;
+	}
+}
